@@ -1,0 +1,17 @@
+{
+    "name": "CinemachineTestEditor",
+    "references": [
+        "GUID:a69156c19bac52f4c977f5198942b2e7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
