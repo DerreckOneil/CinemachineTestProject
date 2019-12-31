@@ -15,12 +15,13 @@ namespace CinemachineTest.Carlos {
 			Vector3 v = new Vector3(
 				velocityX.Evaluate(localTime),
 				velocityY.Evaluate(localTime),
-				velocityY.Evaluate(localTime)
+				velocityZ.Evaluate(localTime)
 			);
 
 			float dt = Time.deltaTime;
 			transform.position += v * dt;
-			localTime += dt;
+			localTime = (localTime + dt) % period;
+
 		}
 
 		public void OnDrawGizmosSelected() {
