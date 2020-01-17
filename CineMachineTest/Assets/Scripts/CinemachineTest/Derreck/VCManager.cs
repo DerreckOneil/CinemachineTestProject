@@ -5,7 +5,7 @@ using Cinemachine;
 
 namespace CinemachineTest.Derreck
 {
-    
+
     public class VCManager : MonoBehaviour
     {
         [SerializeField]
@@ -30,7 +30,7 @@ namespace CinemachineTest.Derreck
         }
         private IEnumerator Camera()
         {
-            
+
             yield return waitInterval;
             Debug.Log("Changing Priority!");
             camera2.GetComponent<CinemachineVirtualCamera>().Priority = 1;
@@ -39,4 +39,11 @@ namespace CinemachineTest.Derreck
 
         }
     }
+    
+    
+    
+    
+    
+    
 }
+//P.S. Jesus is always the answer
